@@ -7,7 +7,7 @@ KL(q_\theta(z)||p(z|D)) &= \mathbb{E}_{q_{\theta}(z)}\left[\text{log}\frac{q_{\t
 &= \mathbb{E}_{q_{\theta}(z)}\left[\text{log}\frac{q_{\theta}(z)}{p(z|D)}\right]\\
 &= \mathbb{E}_{q_{\theta}(z)}\left[\text{log}\frac{q_{\theta}(z)p(D)}{p(D|z)p(z)}\right]\\
 &= \mathbb{E}_{q_{\theta}(z)}\left[\text{log}\frac{q_{\theta}(z)}{p(D|z)p(z)}\right]\\
-&= -ELBO(q_{\theta}(z))$$
+&= -ELBO(q_{\theta}(z))
 \end{align}
 
 
